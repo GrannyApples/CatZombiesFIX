@@ -86,9 +86,9 @@ document.addEventListener("DOMContentLoaded", () => {
           moveZombie()
           
         if (catPosition.x === zombiePosition.x && catPosition.y === zombiePosition.y) {
-        
+          alert("The cat got caught by the zombie! - Final score: "+ points)
           resetGame();
-          alert("The cat got caught by the zombie!")
+          
         }
 
         
